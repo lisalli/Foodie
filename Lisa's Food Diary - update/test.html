@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax Image Gallery</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .gallery-container {
+    position: relative;
+    perspective-origin: center 0;
+    height: 100%;
+    display: flex;
+    perspective: 450px;
+    transform-style: preserve-3d;
+    margin:0 25vw;
+    width: 50vw;
+  }
+  .gallery-item {
+    margin-top: 25vh;
+    position: absolute;
+    transform-style: preserve-3d;
+    /* transition: .5s; */
+    width: 50vw;
+    height: 23vw;
+    transition: all .5s ease-out;
+    transform-origin: bottom center;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+<div class="gallery-container">
+  <img src="./imgs/IMG_0101.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0102.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0103.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0106.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0107.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0108.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0109.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0111.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0112.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0114.JPG" alt= "" class="gallery-item">
+  <img src="./imgs/IMG_0116.JPG" alt= "" class="gallery-item">
+</div>
+
+<script>
+  let galleryContainer = document.querySelector('.gallery-container');
+  let galleryItems = document.querySelectorAll('.gallery-item');
+  let length = galleryItems.length
+  initGallery()
+  function initGallery(){
+    let galleryContainer = document.querySelector('.gallery-container');
+    let galleryItems = document.querySelectorAll('.gallery-item');
+    let z = 120
+    galleryItems.forEach(item => {
+        item.style.transform = `translateZ(${z}px) translateY(${z}px)`;
+        item.style.zIndex = 9999 - Math.ceil(z * 10);
+        if (z < -180){
+            item.style.opacity = 0;
+        }
+        z -= 60
+    });
+    
+  }
+  
+  document.addEventListener('wheel', function(event) {
+    event.preventDefault();
+    let delta = Math.sign(event.deltaY);
+    galleryItems.forEach(item => {
+      let z = item.style.transform.match(/translateZ\((-?\d+)px\)/);
+      if (z) {
+        let op = item.style.opacity
+        z = parseInt(z[1]);
+        let newZ = z - delta * 20;
+        if (newZ == (120 - length * 60)){
+            newZ = 120
+            op = 1
+        }
+        if(newZ <= -180){
+            if (newZ == -200){
+                op = 0.6
+            }else if (newZ == -220){
+                op = 0.3
+            }else if(newZ == -240){
+                op = 0;
+            }else if(newZ == -180){
+                op = 1
+            }
+        }else if(newZ > 120){
+            if(newZ == 140){
+                op = 0.6
+            }else if (newZ == 160){
+                op = 0.3
+            }else{
+                op = 0;
+                newZ = 180 - length * 60
+            }
+        }
+        item.style.transform = `translateZ(${newZ}px) translateY(${newZ}px)`;
+        let zIndex = 9999 - Math.ceil(newZ * 10); // 计算z-index
+        item.style.zIndex = zIndex;
+        item.style.opacity = op;
+      }
+    });
+  });
+</script>
+</body>
+</html>

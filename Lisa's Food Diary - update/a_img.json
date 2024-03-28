@@ -1,0 +1,244 @@
+{
+    "allData": [
+        {
+            "navi":"il Fresco", 
+            "horizontalImg":"HORIZONTAL/1.JPG", 
+            "city":"Orangeburg, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Italian",
+            "month":"2023.11.05"
+        },
+        {
+            "navi":"Valley Rock Lodge", 
+            "horizontalImg":"HORIZONTAL/2.JPG", 
+            "city":"Sloatsburg, NY",
+            "taste":"&#9733; &#9733; &#9734; &#9734; &#9734;",
+            "cuisine":"American",
+            "month":"2023.11.06"
+        },
+        {
+            "navi":"53", 
+            "horizontalImg":"HORIZONTAL/3.JPG", 
+            "city":"New York, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"Chinese",
+            "month":"2023.11.17"
+        },
+        {
+            "navi":"Jungsik", 
+            "horizontalImg":"HORIZONTAL/4.JPG", 
+            "city":"Tribeca, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"Korean, Contemporary",
+            "month":"2023.11.18"
+        },
+        {
+            "navi":"Blue Hill", 
+            "horizontalImg":"HORIZONTAL/5.JPG", 
+            "city":"Greenwich, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"American",
+            "month":"2023.11.20"
+        },
+        {
+            "navi":"Mauka", 
+            "horizontalImg":"HORIZONTAL/6.JPG", 
+            "city":"Cusco, Peru",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Peruvian",
+            "month":"2023.11.22"
+        },
+        {
+            "navi":"Wayra", 
+            "horizontalImg":"HORIZONTAL/7.JPG", 
+            "city":"Cusco, Peru",
+            "taste":"&#9733; &#9733; &#9734; &#9734; &#9734;",
+            "cuisine":"Peruvian",
+            "month":"2023.11.23"
+        },
+        {
+            "navi":"MIL", 
+            "horizontalImg":"HORIZONTAL/8.JPG", 
+            "city":"Cusco, Peru",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Peruvian",
+            "month":"2023.11.24"
+        },
+        {
+            "navi":"Central", 
+            "horizontalImg":"HORIZONTAL/9.JPG", 
+            "city":"Lima, Peru",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Peruvian",
+            "month":"2023.11.25"
+        },
+        {
+            "navi":"Frevo", 
+            "horizontalImg":"HORIZONTAL/10.JPG", 
+            "city":"Greenwich, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"Contemporary",
+            "month":"2023.12.09"
+        },
+        {
+            "navi":"Akira Back", 
+            "horizontalImg":"HORIZONTAL/11.JPG", 
+            "city":"Toronto, Canada",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Japanese, Contemporary",
+            "month":"2023.12.15"
+        },
+        {
+            "navi":"Don Alfonso 1890", 
+            "horizontalImg":"HORIZONTAL/12.JPG", 
+            "city":"Toronto, Canada",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"Italian",
+            "month":"2023.12.16"
+        },
+        {
+            "navi":"Hubin 28", 
+            "horizontalImg":"HORIZONTAL/13.JPG", 
+            "city":"Hangzhou, China",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Chinese",
+            "month":"2023.12.20"
+        },
+        {
+            "navi":"璞珩", 
+            "horizontalImg":"HORIZONTAL/14.JPG", 
+            "city":"Hangzhou, China",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Chinese",
+            "month":"2023.12.23"
+        },
+        {
+            "navi":"玉玲珑", 
+            "horizontalImg":"HORIZONTAL/15.JPG", 
+            "city":"Hangzhou, China",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Chinese",
+            "month":"2023.12.27"
+        },
+        {
+            "navi":"桂语山房", 
+            "horizontalImg":"HORIZONTAL/16.JPG", 
+            "city":"Hangzhou, China",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Chinese",
+            "month":"2024.01.05"
+        },
+        {
+            "navi":"滟设", 
+            "horizontalImg":"HORIZONTAL/17.JPG", 
+            "city":"Chongqing, China",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Chinese",
+            "month":"2024.01.12"
+        },
+        {
+            "navi":"席作", 
+            "horizontalImg":"HORIZONTAL/18.JPG", 
+            "city":"Shanghai, China",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Chinese",
+            "month":"2024.01.17"
+        },
+        {
+            "navi":"Kono", 
+            "horizontalImg":"HORIZONTAL/19.JPG", 
+            "city":"New York, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Japanese",
+            "month":"2024.02.02"
+        },
+        {
+            "navi":"Genesis House", 
+            "horizontalImg":"HORIZONTAL/20.JPG", 
+            "city":"New York, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Korean",
+            "month":"2024.02.03"
+        },
+        {
+            "navi":"Blue Hill at Stone Barns", 
+            "horizontalImg":"HORIZONTAL/21.JPG", 
+            "city":"Tarrytown, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"American, Contemporary",
+            "month":"2024.02.04"
+        },
+        {
+            "navi":"Soogil", 
+            "horizontalImg":"HORIZONTAL/22.JPG", 
+            "city":"New York, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Korean",
+            "month":"2024.02.09"
+        },
+        {
+            "navi":"Per Se", 
+            "horizontalImg":"HORIZONTAL/23.JPG", 
+            "city":"New York, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"French, Contemporary",
+            "month":"2024.02.14"
+        },
+        {
+            "navi":"Maison Premiere", 
+            "horizontalImg":"HORIZONTAL/24.JPG", 
+            "city":"Brooklyn, NY",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Oyster Bar",
+            "month":"2024.02.17"
+        },
+        {
+            "navi":"Restaurant Freisinger Holf", 
+            "horizontalImg":"HORIZONTAL/25.JPG", 
+            "city":"Munich, Germany",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"German",
+            "month":"2024.02.25"
+        },
+        {
+            "navi":"Souvenir Ghent", 
+            "horizontalImg":"HORIZONTAL/26.JPG", 
+            "city":"Ghent, Belgium",
+            "taste":"&#9733; &#9733; &#9733; &#9734; &#9734;",
+            "cuisine":"Belgium, Contemporary",
+            "month":"2024.02.26"
+        },
+        {
+            "navi":"Bistro du Nord ", 
+            "horizontalImg":"HORIZONTAL/27.JPG", 
+            "city":"Antwerp, Belgium",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Belgium, Contemporary",
+            "month":"2024.02.27"
+        },
+        {
+            "navi":"Nuance", 
+            "horizontalImg":"HORIZONTAL/28.JPG", 
+            "city":"Duffel, Belgium",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9734;",
+            "cuisine":"Belgium, Contemporary",
+            "month":"2024.02.27"
+        },
+        {
+            "navi":"La Villa in the Sky", 
+            "horizontalImg":"HORIZONTAL/29.JPG", 
+            "city":"Brussel, Belgium",
+            "taste":"&#9733; &#9733; &#9733; &#9733; &#9733;",
+            "cuisine":"Belgium, Contemporary",
+            "month":"2024.02.28"
+        },
+        {
+            "navi":"Knife & Spoon", 
+            "horizontalImg":"HORIZONTAL/30.JPG", 
+            "city":"Orlando, US",
+            "taste":"&#9733; &#9733; &#9734; &#9734; &#9734;",
+            "cuisine":"American",
+            "month":"2024.03.01"
+        }
+    ]
+}
